@@ -1,0 +1,122 @@
+*
+    box-sizing: border-box
+
+.container
+    max-width: 1280px
+    width: 95%
+    margin: auto
+
+.header
+    &-block
+        display: flex
+        justify-content: space-between
+        overflow: hidden
+        background-color: #fff
+        position: fixed
+        top: 0
+        width: 95%
+    &__navbar
+        font-size: 18px
+        margin-top: 15px
+        a
+            text-decoration: none
+            color: #000
+            padding: 0 20px 20px 0
+            font-weight: 700
+            &:first-child
+                padding-right: 20px
+            &:last-child
+                padding-right: 0
+            &:hover
+                text-decoration: underline 2px #08f
+            &:focus
+                text-decoration: underline 2px #08f
+
+.main
+    padding-bottom: 30px
+    border-bottom: 2px solid #08f
+    &-image
+        
+
+
+.install
+    padding-bottom: 30px
+    border-bottom: 2px solid #08f
+    &__title
+        font-size: 38px
+        color: #000
+        font-weight: 700
+        text-align: center
+        margin-top: 20px
+    &__subtitle
+        font-size: 18px
+        color: #000
+        line-height: 28px
+        
+
+.high
+    padding-bottom: 30px
+    border-bottom: 2px solid #08f
+    &__title
+        font-size: 38px
+        color: #000
+        font-weight: 700
+        text-align: center
+    &__subtitle
+        font-size: 18px
+        color: #000
+        line-height: 28px
+
+.low
+    padding-bottom: 30px
+    border-bottom: 2px solid #08f
+    &__title    
+        font-size: 38px
+        color: #000
+        font-weight: 700
+        text-align: center
+    
+.icon
+    display: flex
+    margin: auto
+    margin-bottom: 20px
+    &__image
+        width: 100px
+        height: 100px
+        border: 3px solid #08f
+        border-radius: 100px
+        display: flex
+        justify-content: center
+        align-items: center
+        img
+            width: 50px
+            height: 50px
+            display: inline-block
+    &__text
+        display: flex
+        text-align: center
+        align-items: center
+
+.price
+    &__title
+        font-size: 38px
+        color: #000
+        font-weight: 700
+        text-align: center
+    &__subtitle
+        font-size: 18px
+        color: #000
+        line-height: 28px
+
+.footer
+    background-color: #08f
+    &-block
+        display: flex
+        justify-content: space-evenly
+    &__text
+        font-size: 18px
+        color: #fff
+        line-height: 22px
+        a
+            text-decoration: none
+            color: #fff
